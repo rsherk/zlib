@@ -8,6 +8,12 @@
 #define ZLIB_INTERNAL
 #include "zlib.h"
 
+void test(void) {
+     char fixed_buf[10];
+     fixed_buf[10] = 1;
+     return 0;
+}
+
 /* ===========================================================================
      Compresses the source buffer into the destination buffer. The level
    parameter has the same meaning as in deflateInit.  sourceLen is the byte
