@@ -10,7 +10,7 @@
 
 void test(void) {
      char fixed_buf[10];
-     fixed_buf[9] = 1;
+     fixed_buf[10] = 1;
      return 0;
 }
 
